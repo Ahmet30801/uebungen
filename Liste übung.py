@@ -2,8 +2,10 @@
 Person_1=["Ahmet, Toplar, 23"]
 print (Person_1)
 
+
 def printPerson(vorname, nachname, alter):
     print(f"mein Name ist {vorname}, {nachname}, {alter}")
+
 
 printPerson("Ahmet", "Toplar", 23)
 printPerson("Harun", "Kayaci", 21)
