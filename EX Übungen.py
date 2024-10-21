@@ -2,9 +2,10 @@
 #auf dem Bildschirm ausgibt. Rufen Sie die Funktion auf.
 
 
-'''
- def greetWorld():
+
+def greetWorld():
     print("Guten Tag, Welt")
+
 greetWorld()
 
 
@@ -85,9 +86,9 @@ def gerade(zahlen):
          if x % 2 == 0:
              print(x)
 
-gerade(zahlen) '''
+gerade(zahlen)
 
-'''
+
 #Liste von Zahlen mit der Rückgabefunktion 
 
 def double_zahlen(zahlen):
@@ -104,18 +105,18 @@ print(double_z)
 
 #Weitere Möglichkeit für doppelte Zahlen mit rückgabewert
 
-zahlen_1 [1,2,3,4,5]
+zahlen_1=[1,2,3,4,5]
 def doppeltezahlen(zahlen):
     ret= [zahl * 2 for zahl in zahlen]
     return ret
 
 r= doppeltezahlen(zahlen_1)
 print(r)
-'''
+
 
 #Definieren Sie eine Funktion die einen String und einen Intergerzahl bekommt und dieser String soll x
 #mal aufgeführt werden)
-'''
+
 name= "Ahmet"
 zahl= 3
 def hallo(n,z):
@@ -123,7 +124,7 @@ def hallo(n,z):
        print(f"Hallo, {n}")
 
 hallo(name,zahl)
-hallo("Fritz", 3) '''
+hallo("Fritz", 3)
 
 #Definieren Sie eine Liste von 1-100 und dann per list comprension überprüfen ob sie durch 3 teilbar sind
 #wenn sie teilbar sind dann werden Sie ausgegeben ( Funktion mit MODULO % )
