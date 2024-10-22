@@ -66,7 +66,7 @@ for zahl1 in zahlen7:
     for zahl2 in zahlen8:
         summe = zahl1*zahl2
     print(summe)
-'''
+    
 
 lst_1= list(range(1,101))
 print(lst_1)
