@@ -26,8 +26,7 @@ greetPerson1("Anna")
 
 
 def greetPerson2(name):
-    ret= (f"Guten Tag, {name}!")
-    return ret
+    return (f"Guten Tag, {name}!")
 
 r= greetPerson2("Anna")
 print(r)
@@ -134,3 +133,21 @@ for i in list_1:
     if i % 3 ==0:
         print(f"{i} ist teilbar durch 3")
 
+
+#Geben Sie ihren Namen ein mit rückgabewert mit Input
+
+def myfunc(name):
+    return(f"Hallo,{name}")
+
+n= input("Geben Sie ihren Namen ein ")
+r= myfunc(n)
+print(r)
+
+
+#Grösste Zahl mit rückgabefunktion
+
+zahlen1= [1, 5, 65, 43, 67]
+def groesstezahl(zahlen):
+    return max(zahlen)
+groesstezahl1= groesstezahl(zahlen1)
+print(groesstezahl1)
