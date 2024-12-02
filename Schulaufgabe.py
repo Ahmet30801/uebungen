@@ -1,5 +1,6 @@
 #Erste Schritte
-'''
+
+
 print('Hallo wie heißen Sie')
 name= input()
 print('Hallo' ,name)
@@ -65,16 +66,22 @@ print(resDiv)
 
 #IF-Bedingung
 
+#User wird nach Alter gefragt, Anhand daran merkt man ob der User volljährig ist
 print("geben Sie ihr alter ein")
 alter= input()
 alter = int(alter)
 if alter >= 18:
     print("der User ist volljährig")
+
+#Wenn der User jünger als 10. ist dann die Angabe 'Du bist ja noch ein Kind'
+
 elif alter <= 10:
     print("der User ist minderjährig")
     print("du bist ja noch ein Kind")
 else:
     print("der User ist minderjährig")
+
+#User soll eine positive ganze Zahl eingeben, es wird geprüft ob zahl gerade ist oder ungerade
 
 print('geben Sie eine positive Zahl ein ')
 zahl1= input()
@@ -89,6 +96,8 @@ if zahl1 %2:
     print('Ihre Zahl ist ungerade')
 else:
     print('Ihre Zahl ist gerade')
+
+#User gibt ein Jahr ein. Das Programm berechnet obs ein Schaltjahr ist.
 
 print('geben Sie ein Jahr ein ')
 jahr= input()
@@ -213,7 +222,7 @@ keys_of_coffee_maker = coffee_maker.keys()
 
 values_of_coffee_maker = coffee_maker.values()
 
-'''
+
 #Erstellen sie ein Wörterbuch person, das die folgenden Informationen erhält.
 
 person = dict()
