@@ -7,6 +7,16 @@ for zahl in zahlen:
     summe += zahl
 print(summe)
 
+#Definition von Summe
+
+zahlen1=[5,3,8,2,10]
+def mysumme(zahlen1):
+    summe = 0
+    for zahl in zahlen1:
+        summe += zahl
+    return summe
+print(mysumme(zahlen1))
+
 #Aufgabe2 Finde das grösste Element in einer Liste
 
 zahlen2= [15, 22, 3, 47, 9, 5]
@@ -15,6 +25,21 @@ for zahl in zahlen2:
     if temp <= zahl:
         temp=zahl
 print(temp)
+
+#Mit Definition
+
+zahlen2= [15, 22, 3, 47, 9, 5]
+
+def funk(zahlen2):
+    temp = 0
+    for zahl in zahlen2:
+        if temp <= zahl:
+            temp=zahl
+    print(temp)
+
+print(funk(zahlen2))
+
+
 
 #Aufgabe3 Zähle wie oft ein bestimmtes Element in einer Liste vorkommt
 

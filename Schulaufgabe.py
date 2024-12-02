@@ -176,7 +176,7 @@ def getPersonAssString (person_1):
     return ret
 
 r=getPersonAssString(person_1)
-print(r) '''
+print(r)
 
 #Tupel
 
@@ -213,7 +213,7 @@ keys_of_coffee_maker = coffee_maker.keys()
 
 values_of_coffee_maker = coffee_maker.values()
 
-
+'''
 #Erstellen sie ein Wörterbuch person, das die folgenden Informationen erhält.
 
 person = dict()
@@ -221,8 +221,11 @@ person['Vorname'] = 'Anna'
 person['Müller'] = 'Müller'
 person['Alter'] = '23'
 
+#Das Alter zu verändern
+
+person['Alter'] = '24'
+
 print(person)
 
-person['Alter'] = '21'
 
-print(person)
+
