@@ -222,7 +222,6 @@ keys_of_coffee_maker = coffee_maker.keys()
 
 values_of_coffee_maker = coffee_maker.values()
 
-
 #Erstellen sie ein Wörterbuch person, das die folgenden Informationen erhält.
 
 person = dict()
@@ -234,6 +233,9 @@ person['Alter'] = '23'
 
 person['Alter'] = '24'
 
+person['Instrument'] = 'Hurensohn'
+
+person.pop('Alter')
 print(person)
 
 

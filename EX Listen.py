@@ -27,6 +27,19 @@ früchte = ["Apfel", "Banane", "Orange", "Mango"]
 früchte.remove("Banane")
 print(früchte)
 
+früchte1 = ["Apfel", "Banane", "Orange", "Mango"]
+remove=('Banane')
+def delete(para1):
+    erg= para1.remove()
+    return erg
+
+r=delete(früchte1,remove)
+print(r)
+
+
+
+
+
 #5. Länge der Liste abfragen
 
 # Die Anzahl der Elemente in der Liste abfragen

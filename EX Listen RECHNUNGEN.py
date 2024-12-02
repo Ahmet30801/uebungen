@@ -26,6 +26,7 @@ for zahl in zahlen2:
         temp=zahl
 print(temp)
 
+
 #Mit Definition
 
 zahlen2= [15, 22, 3, 47, 9, 5]
